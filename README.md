@@ -15,6 +15,7 @@ Sagiri is a bot for Discord written in node.js using:
 
 - **8ball** - Ask a question and I will reply Yes/No/Maybe. *Syntax: 8ball Question Goes Here*
 - **cat** - I will post a random cat picture from random.cat.
+- **github** - Get a link to my GitHub repository.
 - **googl** - Shorten a link using goo.gl. *Syntax: googl LinkHere*
 - **hate** - Hate someone. *Syntax: hate MentionAnUser*
 - **help** - Show help message.
@@ -25,7 +26,7 @@ Sagiri is a bot for Discord written in node.js using:
 - **love** - Love someone. *Syntax: love MentionAnUser*
 - **noticeme** - I will mention you.
 - **ping** - Check my latency.
--  **stats** - Check my stats.
+- **stats** - Check my stats.
 - **suicide** - Suicide.
 
 ## Private (owner-only) command list:
