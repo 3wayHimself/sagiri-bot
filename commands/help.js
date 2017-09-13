@@ -7,6 +7,7 @@ exports.run = (m, bot, args) => {
     
         **${cfg.prefix}8ball** - Ask a question and I will reply Yes/No/Maybe. *Syntax: ${cfg.prefix}8ball Question Goes Here*
         **${cfg.prefix}cat** - I will post a random cat picture from random.cat.
+        **${cfg.prefix}github** - Get a link to my GitHub repository.
         **${cfg.prefix}googl** - Shorten a link using goo.gl. *Syntax: ${cfg.prefix}googl LinkHere*
         **${cfg.prefix}hate** - Hate someone. *Syntax: ${cfg.prefix}hate MentionAnUser*
         **${cfg.prefix}help** - Show help message.

@@ -5,5 +5,6 @@
     "botid": "Put your bot id here",
     "perms": "363530", //Permissions
     "invite": "Put invite code to your bot server here",
-    "oid": "Put your user id here"
+    "oid": "Put your user id here",
+    "repo": "Put your github repository url here"
 }
