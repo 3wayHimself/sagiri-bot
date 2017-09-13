@@ -1,4 +1,4 @@
-# Sagiri
+# Sagiri:
 
 Sagiri is a bot for Discord written in node.js using:
 
@@ -6,10 +6,15 @@ Sagiri is a bot for Discord written in node.js using:
   - node-googl
   - request
 
-# Public command list:
+### Links:
 
- - **8ball** - Ask a question and I will reply Yes/No/Maybe. *Syntax: 8ball Question Goes Here*
--    **cat** - I will post a random cat picture from random.cat.
+- [Discord Server](https://discord.gg/rh6SEuS)
+- [Add Sagiri to your server](https://discordapp.com/oauth2/authorize?client_id=348020544358055937&scope=bot&permissions=363530)
+
+## Public command list:
+
+- **8ball** - Ask a question and I will reply Yes/No/Maybe. *Syntax: 8ball Question Goes Here*
+- **cat** - I will post a random cat picture from random.cat.
 - **googl** - Shorten a link using goo.gl. *Syntax: googl LinkHere*
 - **hate** - Hate someone. *Syntax: hate MentionAnUser*
 - **help** - Show help message.
@@ -23,7 +28,7 @@ Sagiri is a bot for Discord written in node.js using:
 -  **stats** - Check my stats.
 - **suicide** - Suicide.
 
-# Private (owner-only) command list:
+## Private (owner-only) command list:
 
 - **eval** - Check an value 
 - **reload** - Reload a command or arrays.json
