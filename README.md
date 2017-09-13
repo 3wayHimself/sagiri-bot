@@ -26,6 +26,7 @@ Sagiri is a bot for Discord written in node.js using:
 - **love** - Love someone. *Syntax: love MentionAnUser*
 - **noticeme** - I will mention you.
 - **ping** - Check my latency.
+- **site** - Get a link to my website.
 - **stats** - Check my stats.
 - **suicide** - Suicide.
 

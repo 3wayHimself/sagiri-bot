@@ -18,6 +18,7 @@ exports.run = (m, bot, args) => {
         **${cfg.prefix}love** - Love someone. *Syntax: ${cfg.prefix}love MentionAnUser*
         **${cfg.prefix}noticeme** - I will mention you.
         **${cfg.prefix}ping** - Check my latency.
+        **${cfg.prefix}site** - Get a link to my website.
         **${cfg.prefix}stats** - Check my stats.
         **${cfg.prefix}suicide** - Suicide.
     `)
