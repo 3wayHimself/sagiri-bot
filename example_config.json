@@ -4,6 +4,6 @@
     "apigoogl": "Put your googl api token here",
     "botid": "Put your bot id here",
     "perms": "363530", //Permissions
-    "invite": "Put invite to your bot here",
+    "invite": "Put invite code to your bot server here",
     "oid": "Put your user id here"
 }
