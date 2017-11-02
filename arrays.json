@@ -114,6 +114,7 @@
         "eval",
         "invite",
         "github",
-        "site"
+        "site",
+        "exec"
     ]
 }

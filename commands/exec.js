@@ -23,7 +23,6 @@ exports.run = (m, bot, args) => {
         if (typeof evaled !== "string")
         evaled = require("util").inspect(evaled);
 
-        m.channel.send(clean(evaled), {code:"xl"});
         } catch (err) {
         m.channel.send(`Error: \`\`\`xl\n${clean(err)}\n\`\`\``);
     }

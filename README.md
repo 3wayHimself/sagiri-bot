@@ -5,6 +5,7 @@ Sagiri is a bot for Discord written in node.js using:
   - discord.js
   - node-googl
   - request
+  - moment
 
 ### Links:
 
@@ -32,5 +33,6 @@ Sagiri is a bot for Discord written in node.js using:
 
 ## Private (owner-only) command list:
 
-- **eval** - Check an value 
+- **eval** - Check a value 
+- **exec** - Execute a function
 - **reload** - Reload a command or arrays.json
