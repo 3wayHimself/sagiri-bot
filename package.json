@@ -10,6 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "discord.js": "^11.1.0",
+    "glob": "^7.1.2",
+    "imgflipper": "^1.0.1",
     "moment": "^2.18.1",
     "node-googl": "0.0.2",
     "request": "^2.81.0"

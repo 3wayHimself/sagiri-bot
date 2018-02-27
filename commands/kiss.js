@@ -3,12 +3,12 @@ const cfg = require(`../config.json`);
 
 exports.run = (m, bot, args) => {
     if (!m.mentions.members.first()) {
-        m.channel.send(`You need to mention a member`)
+        m.channel.send(`You need to mention a member`);
     } else
     if (m.mentions.members.first().id === m.author.id){
-        m.channel.send(`You can't do this on yourself`)
+        m.channel.send(`You can't do this action on yourself`);
     } else 
     if (m.mentions.members.first().id === cfg.botid){
-        m.channel.send(`I'm... I'm not interested in you, sorry :blush:`)
-    }else m.channel.send(m.author.toString() +" "+  arrays.kiss[Math.floor(Math.random() * arrays.kiss.length)]+ " " + m.mentions.members.first())
+        m.channel.send(`I'm... I'm not interested in you, sorry :blush:`);
+    }else m.channel.send(m.author.toString() +" "+  arrays.kiss[Math.floor(Math.random() * arrays.kiss.length)]+ " " + m.mentions.members.first());
 };

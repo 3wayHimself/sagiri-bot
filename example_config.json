@@ -1,11 +1,12 @@
 {
-    "prefix": "&", //Prefix
+    "prefix": "Put your bot prefix here",
     "token": "Put your bot token here",
     "apigoogl": "Put your googl api token here",
-    "botid": "Put your bot id here",
-    "perms": "363530", //Permissions
+    "perms": "Put permissions that the bot need here",
     "invite": "Put invite code to your bot server here",
     "oid": "Put your user id here",
-    "repo": "Put your github repository url here",
-    "site": "Put your bot site url here"
+    "repo": "Put your repository url here",
+    "site": "Put your bot site url here",
+    "imgflip_login": "Put your imgflip login here",
+    "imgflip_pass": "Put your imgflip password here"
 }
