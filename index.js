@@ -30,8 +30,7 @@ bot.on(`message`, (m)=> {
     if (command == cfg.prefix) {
         require(`./commands/help.js`).run(m, bot, args);
         console.log(`[${new Date().toUTCString()}] ${m.author.username}#${m.author.discriminator} UID ${m.author.id} called help Server: ${m.guild.name} ID: ${m.guild.id}. Channel: #${m.channel.name}.` );
-    }
-    if (commandList.includes(command)){
+    } else if (commandList.includes(command)){
         require(`./commands/${command}.js`).run(m, bot, args);
         console.log(`[${new Date().toUTCString()}] ${m.author.username}#${m.author.discriminator} UID ${m.author.id} called ${command} Server: ${m.guild.name} ID: ${m.guild.id}. Channel: #${m.channel.name}.` );
     } else {

@@ -1,6 +1,6 @@
-# Blood Moon Bot:
+# Sagiri:
 
-Blood Moon Bot is a bot for Discord written in node.js using:
+Sagiri is a bot for Discord written in node.js using:
 
   - discord.js
   - node-googl
@@ -8,12 +8,11 @@ Blood Moon Bot is a bot for Discord written in node.js using:
   - moment
   - glob
   - imgflippper
-  - spongify
 
 ### Links:
 
  - [Discord Server](https://discord.gg/rh6SEuS)
- - [Add Blood Moon Bot to your server](https://discordapp.com/oauth2/authorize?client_id=348020544358055937&scope=bot&permissions=8)
+ - [Add Sagiri to your server](https://discordapp.com/oauth2/authorize?client_id=348020544358055937&scope=bot&permissions=8)
 
 ## Public command list:
 

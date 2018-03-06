@@ -32,7 +32,7 @@ exports.run = (m, bot, args) => {
     
     **Memes**:
     
-     - **spongemock** - Make a Mocking Spongebob meme out of some text.
+     - **spongemock** - Make a Mocking Spongebob meme out of some text. Uppercase only.
     
     **Moderation**:
     
