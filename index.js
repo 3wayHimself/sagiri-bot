@@ -13,10 +13,6 @@ glob("*.js", {cwd: 'commands'}, function (er, files) {
     commandList = files;
 })
 
-function log(m, c) {
-    console.log(`[${new Date().toUTCString()}] ${m.author.username}#${m.author.discriminator} UID ${m.author.id} called ${c} Server: ${m.guild.name} ID: ${m.guild.id}. Channel: #${m.channel.name}.` );
-};
-
 bot.on(`ready`,() =>{
     console.log(`[${new Date().toUTCString()}] Ready`);
     bot.user.setActivity(`Do ${cfg.prefix}help | ${bot.guilds.size} servers | ${bot.users.size} users`);
@@ -31,10 +27,13 @@ bot.on(`message`, (m)=> {
         m.channel.send(`Commands do not work in DMs. Sorry.`)
         return;
     };
+    if (command == cfg.prefix) {
+        require(`./commands/help.js`).run(m, bot, args);
+        console.log(`[${new Date().toUTCString()}] ${m.author.username}#${m.author.discriminator} UID ${m.author.id} called help Server: ${m.guild.name} ID: ${m.guild.id}. Channel: #${m.channel.name}.` );
+    }
     if (commandList.includes(command)){
-        let commandFile = require(`./commands/${command}.js`);
-        log(m, command);
-        commandFile.run(m, bot, args);
+        require(`./commands/${command}.js`).run(m, bot, args);
+        console.log(`[${new Date().toUTCString()}] ${m.author.username}#${m.author.discriminator} UID ${m.author.id} called ${command} Server: ${m.guild.name} ID: ${m.guild.id}. Channel: #${m.channel.name}.` );
     } else {
         m.channel.send(`Command does not exist.`);
     }

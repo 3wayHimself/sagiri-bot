@@ -27,6 +27,7 @@ Blood Moon Bot is a bot for Discord written in node.js using:
  - **noticeme** - I will mention you.
  - **8ball** - Ask a question and I will reply Yes/No/Maybe. *Syntax: 8ball Question Goes Here*
  - **cat** - I will post a random cat picture from random.cat.
+ - **dog** - I will post a random dog picture from random.dog.
 
 ### Information:
 
