@@ -14,7 +14,7 @@ glob("*.js", {cwd: 'commands'}, function (er, files) {
 })
 
 bot.on(`ready`,() =>{
-    console.log(`[${new Date().toUTCString()}] Ready`);
+    console.log(`[${new Date().toUTCString()}] Ready. User: ${bot.user.username}#${bot.user.discriminator} UID ${bot.user.id}`);
     bot.user.setActivity(`Do ${cfg.prefix}help | ${bot.guilds.size} servers | ${bot.users.size} users`);
 });
 

@@ -9,6 +9,7 @@
   "author": "Kriss7475",
   "license": "MIT",
   "dependencies": {
+    "booru": "^0.4.0",
     "discord.js": "^11.1.0",
     "glob": "^7.1.2",
     "imgflipper": "^1.0.1",
