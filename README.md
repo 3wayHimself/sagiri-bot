@@ -16,15 +16,22 @@ Sagiri is a bot for Discord written in node.js using:
 ### FAQ:
 
  **Q**: Why node.js?
+
  **A**: Why not? It's easy to use.
 
+
  **Q**: How the bot is hosted?
+
  **A**: I've got a dedicated server.
 
+
  **Q**: Bot is offline, why?
+
  **A**: Power loss or update.
  
+
  **Q**: Why SFW boorus aren't allowed on SFW channels?
+
  **A**: It might be NSFW somewhere. Better safe than sorry.
 
 ## Public command list:
