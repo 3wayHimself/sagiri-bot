@@ -5,7 +5,7 @@ module.exports = {
     cooldown: 10,
 	execute(m, bot, args) {
         request({
-            url: `http://random.cat/meow.php`,
+            url: `http://aws.random.cat/meow`,
             json: true
         }, function (error, response, body) {
             m.channel.send(`Your cat will load in a few seconds, ` + m.author.toString() + `.` )

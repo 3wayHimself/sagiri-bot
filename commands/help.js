@@ -12,7 +12,7 @@ module.exports = {
     usage: '[command name]',
 	execute(m, bot, args) {
         const commands = bot.cmds;
-        if (!args) {
+        if (!args[0]) {
             const helparray = helpmsg.split('---NEWMSG---');
             for (i = 0; i < helparray.length; i++) {
                 m.author.send(helparray[i]);
