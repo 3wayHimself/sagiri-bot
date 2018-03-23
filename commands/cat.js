@@ -8,8 +8,14 @@ module.exports = {
             url: `http://aws.random.cat/meow`,
             json: true
         }, function (error, response, body) {
-            m.channel.send(`Your cat will load in a few seconds, ` + m.author.toString() + `.` )
-            m.channel.send(body)
+            if (error) {
+                m.channel.send(`I encountered the following error: ${error}. Please try again. If the problem persists, report it to my owner.`);
+            } else {
+                m.channel.send(`Your cat will load in a few seconds, ` + m.author.toString() + `.` );
+                m.channel.send(body).catch(err => {
+                    m.channel.send(`I encountered the following error: ${err}. Please try again. If the problem persists, report it to my owner.`);
+                });
+            }
         })
 	},
 };
