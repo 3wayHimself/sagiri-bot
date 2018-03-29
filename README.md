@@ -42,6 +42,7 @@ Sagiri is a bot for Discord written in node.js using:
  - **cat** - Random cat image from `random.cat`.
  - **dog** - Random dog image from `random.dog`.
  - **hate** - Hate someone. *Syntax: hate MentionAnUser*
+ - **httpcat** - HTTP cat image from `http.cat`.
  - **kill** - Kill someone. *Syntax: kill MentionAnUser*
  - **kiss** - Kiss someone. *Syntax: kiss MentionAnUser*
  - **love** - Love someone. *Syntax: love MentionAnUser*
