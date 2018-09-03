@@ -1,39 +1,3 @@
-# Sagiri:
-
-Sagiri is a bot for Discord written in node.js using:
-
-  - discord.js
-  - imgflippper
-  - moment
-  - node-googl
-  - request
-
-### Links:
-
- - [Discord Server](https://discord.gg/rh6SEuS)
- - [Add Sagiri to your server](https://discordapp.com/oauth2/authorize?client_id=348020544358055937&scope=bot&permissions=8)
-
-### FAQ:
-
- **Q**: Why node.js?
-
- **A**: Why not? It's easy to use.
-
-
- **Q**: How the bot is hosted?
-
- **A**: I've got a dedicated server.
-
-
- **Q**: Bot is offline, why?
-
- **A**: Power loss or update.
- 
-
- **Q**: Why SFW boorus aren't allowed on SFW channels?
-
- **A**: It might be NSFW somewhere. Better safe than sorry.
-
 ## Public command list:
 
 ### Fun:
